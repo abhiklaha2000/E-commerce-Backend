@@ -75,7 +75,7 @@ Method:"DELETE"
   Endpoints:'/cart/add/:productId' //  The id in url refers to the product id
   Method:"POST"
   Request Body Example: {
-    "userId": "66270579b72fa1ba2666e086" 
+    "userId": "6656d61ca70d044608c1ca20" 
   }
   //Without logged In the user can add products to cart
 
@@ -88,6 +88,6 @@ Method:"DELETE"
    Endpoints:'/cart/remove/:productId' // The id in url refers to the product id
    Method:"DELETE"
    Request Body Example: {
-    "userId": "66270579b72fa1ba2666e086"  
+    "userId": "6656d61ca70d044608c1ca20"  
    }
-   //Without logged In the user can remove the product from cart
+   //Without Sign In the user can remove the product from cart
