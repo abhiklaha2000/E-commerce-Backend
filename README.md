@@ -4,6 +4,8 @@ npm i
 -To start the application run the following command and make sure a local MongoDB Instance is installed and running:
 npm run start
 
+* For Authenticated Route in Postman first you have to Login using the Request and then you have to send the following in Authorization Header : Bearer {token}
+
 -Following are the routes that you can check using an API client like Postman
 
 // Login API's
